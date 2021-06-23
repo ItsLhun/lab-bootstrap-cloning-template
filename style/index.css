@@ -1,1 +1,16 @@
 /* Your own custom styles should be here */
+* {
+  font-family: 'Inter', sans-serif;
+  vertical-align: baseline;
+}
+section:first-of-type {
+  height: 70vh;
+  min-height: 400px;
+}
+.main-title {
+    max-width: 24rem;
+  font-size: 3.25rem !important;
+}
+.main-subtitle{
+    max-width: 34rem;
+}
