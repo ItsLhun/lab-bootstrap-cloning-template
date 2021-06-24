@@ -14,3 +14,14 @@ section:first-of-type {
 .main-subtitle{
     max-width: 34rem;
 }
+.card:hover > img{
+  transform: scale(1.05);
+}
+.card:hover p{
+  color: grey;
+}
+.card:hover > img, .card:hover > p{
+  transition-timing-function: ease-in-out;
+  transition-duration: 400ms;
+  z-index: 10;
+}
