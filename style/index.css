@@ -1,4 +1,3 @@
-/* Your own custom styles should be here */
 * {
   font-family: 'Inter', sans-serif;
   vertical-align: baseline;
@@ -18,8 +17,8 @@ section:first-of-type {
 .blue-line {
   transform: translateX(-11px);
 }
-.dark-section-max {
-  max-width: 80rem;
+.medium-logo{
+  transform: translateX(-30px);
 }
 .second-subtitle {
   max-width: 10em;
@@ -31,6 +30,7 @@ section:first-of-type {
 .card:hover p {
   color: grey;
 }
+
 .card:hover > img,
 .card:hover > p {
   transition-timing-function: ease-in-out;
