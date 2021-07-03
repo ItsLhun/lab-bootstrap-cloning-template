@@ -24,21 +24,21 @@ section:first-of-type {
   max-width: 10em;
   font-size: 2rem;
 }
-.card:hover > img {
+.first-card:hover > img {
   transform: scale(1.025);
 }
-.card:hover p {
+.first-card:hover p {
   color: grey;
 }
 
-.card:hover > img,
-.card:hover > p {
+.first-card:hover > img,
+.first-card:hover > p {
   transition-timing-function: ease-in-out;
   transition-duration: 250ms;
   z-index: 10;
 }
 @media (max-width: 1022px) {
-  .card:nth-child(3) {
+  .first-card:nth-child(3), .second-card:nth-child(3) {
     display: none;
   }
 }
@@ -46,7 +46,7 @@ section:first-of-type {
   section.row.container-fluid {
     margin: auto;
   }
-  .card:nth-child(2) {
+  .first-card:nth-child(2),.second-card:nth-child(2) {
     margin: inherit !important;
   }
 }
